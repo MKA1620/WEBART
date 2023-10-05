@@ -154,7 +154,16 @@ left: 0;
 
 }
 
+.webring {
 
+    border: 4px dashed white;
+    padding: 0rem;
+    width: max-content;
+}
+
+.webring a{
+    padding: 10px;
+}
 
 
 
