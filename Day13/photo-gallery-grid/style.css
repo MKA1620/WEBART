@@ -1,0 +1,97 @@
+* {
+  
+    /* "CSS Reset" */ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+
+background-color: beige;
+padding: 1rem;
+border: .5rem solid red;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+gap: 1rem 2rem;
+
+}
+
+.Logo {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    padding: .25rem;
+
+
+}
+
+.top-menu {
+display: flex;
+flex-wrap: wrap;
+gap: 0 2rem;
+
+
+}
+
+.top-menu a {
+
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.top-menu a:hover {
+color: green;
+
+}
+
+img {
+    display: block;
+
+}
+
+.gallery {
+    display: grid;
+   /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+
+}
+
+.gallery img {
+ width: 100%;
+ flex-grow: 1;
+
+
+
+}
+
+/*main {
+
+    max-width: 50rem;
+    margin: auto;
+}
+
+*/ 
+.page-title {
+    
+    text-align: center;
+
+    padding: 4rem;
+
+    color: black;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem;
+
+    color: white;
+
+}
